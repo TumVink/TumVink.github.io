@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Data Researcher
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: jingsong.jpeg
   image_circular: false # crops the image to make it circular
   address: >
     <p>Josef-Wirth-Weg 21</p>
