@@ -238,7 +238,7 @@ body {
   margin: 0;
   padding: 0;
   color: #494e52;
-  font-size: 1.8em;
+  font-size: 2.2em;
   line-height: 1.5;
   font-family: "Times New Roman", FangSong, STFangsong, sans-serif;
   scroll-behavior: smooth;
@@ -460,7 +460,7 @@ blockquote p {
 }
 .page article p,
 .page article li {
-  font-size: 1.8rem;
+  font-size: 2.2rem;
 }
 .page article a {
   color: #494e52;
@@ -529,13 +529,13 @@ blockquote p {
 .author-avatar {
   display: table-cell;
   vertical-align: top;
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
 }
 .author-avatar img {
   width: 100%;
   max-width: 110px;
-  border-radius: 50%;
+  border-radius: 75%;
 }
 .author-discrip {
   display: table-cell;
@@ -546,10 +546,10 @@ blockquote p {
 }
 .author-discrip h3 {
   margin: 0px;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
 }
 .author-discrip .author-bio {
-  font-size: 1.2rem;
+  font-size: 2.2rem;
   margin: 0.3rem 0;
 }
 .author-links {
@@ -638,7 +638,7 @@ blockquote p {
   transition: all 0.2s ease-in-out;
 }
 .social-icons a {
-  font-size: 1.7rem;
+  font-size: 2.7rem;
 }
 .social-icons li {
   display: inline-block;
@@ -652,7 +652,7 @@ blockquote p {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #000;
-  width: 1.28571em;
+  width: 2.28571em;
   text-align: center;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -673,14 +673,22 @@ blockquote p {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-.social-links .e-social-link {
-  color: #000;
-}
 .social-links .e-social-link .fa,
-.social-links .e-social-link .fas,
-.social-links .e-social-link .fab {
-  padding-right: 0.5rem;
+.social-links .e-social-link .fas {
+  color: #096494 !important;
+  display: inline-block;
+  position: relative;
+  font-size: 2.2rem;
 }
+.social-links .e-social-link .fa i,
+.social-links .e-social-link .fas i {
+  text-decoration: underline;
+}
+.social-links .e-social-link .fa i::before,
+.social-links .e-social-link .fas i::before {
+  margin-right: 0.5rem;
+}
+.social-links .e-social-link .fab,
 .social-links .e-social-link:hover span {
   text-decoration: underline;
 }
@@ -688,7 +696,7 @@ blockquote p {
   color: #096494 !important;
   display: inline-block;
   position: relative;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin-left: 5.5rem;
 }
 .cv-links i {
@@ -742,7 +750,7 @@ blockquote p {
     color: #000;
   }
   .author-discrip .author-bio {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     margin-top: 8px;
     margin-bottom: 10px;
   }
